@@ -11,18 +11,18 @@ body {
     
 }
 #principal {
-    height: 110px;
+    height: 80px;
     background-color: #8db6cc;
-    padding:  40px;
+    padding:  20px;
     size: 12px;
     color: white;
 }
 #logo {
     position: absolute;
-    height: 100px;
-    width: 100px;
-    top: 8px;
-    left: 80px;
+    height: 70px;
+    width: 70px;
+    top: 5px;
+    left: 160px;
 }
 
 a {
@@ -37,7 +37,111 @@ a:hover{
 
 #menu{
     width: 100%;
-    height: 40px;
+    height: 30px;
     background-color: #5990ae;
+    padding: 5px;
+}
+
+#ctn1 {
+    float: left;
+    height: 295px;
+    width: 50%;
     padding: 10px;
+    text-align: center;
+}
+
+#ctn2{
+    float: left;
+    height: 295px;
+    width: 25%;
+    text-align: center;
+    padding: 10px;
+}
+#ctn3{
+    float: left;
+    height: 295px;
+    width: 25%;
+}
+
+#ctn3 img {
+    width: 250px;
+    height: 100px;
+    margin: 20px;
+}
+
+#ctn4{
+    float: left;
+    width: 50%;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+#ctn4-1 {
+    
+    border-radius: 10px;
+    background-color: #dfd880;
+    height: 170px;
+    width: 550px;
+    margin-left: 50px;
+    text-align: center;
+ 
+}
+#ctn4 img{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 90px;
+    bottom: 70px;
+}
+#ctn4 h1  {
+    position: absolute;
+    bottom: 155px;
+    left: 290px;
+}
+#ctn4 p{
+    position: absolute;
+    bottom: 95px;
+    left: 190px;
+    width: 400px;
+}
+
+
+#ctn5{
+    float: left;
+    width: 50%;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+#ctn5-1 {
+    border-radius: 10px;
+    background-color: #5b0002 ;
+    height: 170px;
+    width: 550px;
+    margin-left: 50px;
+    text-align: center;
+}
+#ctn5 img{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 750px;
+    bottom: 70px;
+}
+#ctn5 h1  {
+    position: absolute;
+    bottom: 155px;
+    left: 950px;
+}
+#ctn5 p{
+    position: absolute;
+    bottom: 95px;
+    left: 850px;
+    width: 400px;
+}
+
+#ctn6 {
+    clear: both;
+    background-color: black;
+    text-align: center;
+    color: white;
+   
 }
